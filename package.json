@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "nuxt": "^2.15.8",
-    "terodon": "^0.0.2"
+    "terodon": "^0.0.3"
   }
 }

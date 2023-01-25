@@ -9384,10 +9384,10 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-terodon@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/terodon/-/terodon-0.0.2.tgz#ece8541859b2be4f97be4bdd1b5926d2e8ec649f"
-  integrity sha512-GFIAjWO/r+LFpNpoF98lJycQlr1mAtfUIarlHZNm3oiAVNRLbGWJQHqcLM0RPq4qaUGZ/2gevexhxd8VGlUIzA==
+terodon@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/terodon/-/terodon-0.0.3.tgz#5043c82d5b5d932d39968d46677f623527cd372c"
+  integrity sha512-TFLKxp/g493MAyg7FPsAuYIaQBaQusTbsjOZTo0aHOAXkYE+zOkkt8JT4kjPzp2d8ddDwWYpM6ln38X7QDcE1Q==
   dependencies:
     "@docsearch/css" "^1.0.0-alpha.28"
     "@docsearch/js" "^1.0.0-alpha.28"
