@@ -1,4 +1,4 @@
-import theme from "@nuxt/content-theme-docs";
+import theme from "terodon";
 
 export default theme({
   
