@@ -2,7 +2,7 @@
 title: Introduction
 description: ''
 position: 1
-category: ''
+category: 'index'
 features:
   - Feature 1
   - Feature 2
@@ -21,6 +21,8 @@ Your documentation has been created successfully!
 </alert>
 
 ## Features
+
+## hola
 
 <list :items="features"></list>
 
