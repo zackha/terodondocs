@@ -2,6 +2,25 @@
 # yarn lockfile v1
 
 
+"@algolia/autocomplete-core@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.7.4.tgz#85ff36b2673654a393c8c505345eaedd6eaa4f70"
+  integrity sha512-daoLpQ3ps/VTMRZDEBfU8ixXd+amZcNJ4QSP3IERGyzqnL5Ch8uSRFt/4G8pUvW9c3o6GA4vtVv4I4lmnkdXyg==
+  dependencies:
+    "@algolia/autocomplete-shared" "1.7.4"
+
+"@algolia/autocomplete-preset-algolia@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.7.4.tgz#610ee1d887962f230b987cba2fd6556478000bc3"
+  integrity sha512-s37hrvLEIfcmKY8VU9LsAXgm2yfmkdHT3DnA3SgHaY93yjZ2qL57wzb5QweVkYuEBZkT2PIREvRoLXC2sxTbpQ==
+  dependencies:
+    "@algolia/autocomplete-shared" "1.7.4"
+
+"@algolia/autocomplete-shared@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.7.4.tgz#78aea1140a50c4d193e1f06a13b7f12c5e2cbeea"
+  integrity sha512-2VGCk7I9tA9Ge73Km99+Qg87w0wzW4tgUruvWAn/gfey1ZXgmxZtyIRBebk35R1O8TbK77wujVtCnpsGpRy1kg==
+
 "@algolia/cache-browser-local-storage@4.14.3":
   version "4.14.3"
   resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.14.3.tgz#b9e0da012b2f124f785134a4d468ee0841b2399d"
@@ -1050,38 +1069,28 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@docsearch/css@^1.0.0-alpha.28":
-  version "1.0.0-alpha.28"
-  resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-1.0.0-alpha.28.tgz#c8a2cd8c1bb3a6855c51892e9dbdab5d42fe6e23"
-  integrity sha512-1AhRzVdAkrWwhaxTX6/R7SnFHz8yLz1W8I/AldlTrfbNvZs9INk1FZiEFTJdgHaP68nhgQNWSGlQiDiI3y2RYg==
+"@docsearch/css@3.3.2", "@docsearch/css@^3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-3.3.2.tgz#2c49995e6fbc7834c75f317b277ed6e4019223a4"
+  integrity sha512-dctFYiwbvDZkksMlsmc7pj6W6By/EjnVXJq5TEPd05MwQe+dcdHJgaIn1c8wfsucxHpIsdrUcgSkACHCq6aIhw==
 
-"@docsearch/js@^1.0.0-alpha.28":
-  version "1.0.0-alpha.28"
-  resolved "https://registry.yarnpkg.com/@docsearch/js/-/js-1.0.0-alpha.28.tgz#f0fde7b8a6b1e1d8a7ae1e7655c43d959b457b2b"
-  integrity sha512-2g7aPhBy7FoEyeZW2G3LYHWVa8CFvqyozEz8PXt3hyywdFcmEIqmoCRwn8kboVftrOKCjtPcuLCewsaBoB3uiw==
+"@docsearch/js@^3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@docsearch/js/-/js-3.3.2.tgz#fd7d5dfdd79abfe2bc8011b119215e0b08e33138"
+  integrity sha512-k2yiB9attFvKoiYswrRtKhIO+qHuzAj1FHYfFWrKz3wSzB2G6s/7EZL9Rf6iytUo1Ok00LUj2C6mWoOnsUTkxg==
   dependencies:
-    "@docsearch/react" "^1.0.0-alpha.28"
+    "@docsearch/react" "3.3.2"
     preact "^10.0.0"
 
-"@docsearch/react@^1.0.0-alpha.28":
-  version "1.0.0-alpha.28"
-  resolved "https://registry.yarnpkg.com/@docsearch/react/-/react-1.0.0-alpha.28.tgz#4f039ed79f8b3332b19a57677b219aebc5010e9d"
-  integrity sha512-XjJOnCBXn+UZmtuDmgzlVIHnnvh6yHVwG4aFq8AXN6xJEIX3f180FvGaowFWAxgdtHplJxFGux0Xx4piHqBzIw==
+"@docsearch/react@3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@docsearch/react/-/react-3.3.2.tgz#252b659c66682f24902bf6db257f63ee73ffe8fa"
+  integrity sha512-ugILab2TYKSh6IEHf6Z9xZbOovsYbsdfo60PBj+Bw+oMJ1MHJ7pBt1TTcmPki1hSgg8mysgKy2hDiVdPm7XWSQ==
   dependencies:
-    "@docsearch/css" "^1.0.0-alpha.28"
-    "@francoischalifour/autocomplete-core" "^1.0.0-alpha.28"
-    "@francoischalifour/autocomplete-preset-algolia" "^1.0.0-alpha.28"
+    "@algolia/autocomplete-core" "1.7.4"
+    "@algolia/autocomplete-preset-algolia" "1.7.4"
+    "@docsearch/css" "3.3.2"
     algoliasearch "^4.0.0"
-
-"@francoischalifour/autocomplete-core@^1.0.0-alpha.28":
-  version "1.0.0-alpha.28"
-  resolved "https://registry.yarnpkg.com/@francoischalifour/autocomplete-core/-/autocomplete-core-1.0.0-alpha.28.tgz#6b9d8491288e77f831e9b345d461623b0d3f5005"
-  integrity sha512-rL9x+72btViw+9icfBKUJjZj87FgjFrD2esuTUqtj4RAX3s4AuVZiN8XEsfjQBSc6qJk31cxlvqZHC/BIyYXgg==
-
-"@francoischalifour/autocomplete-preset-algolia@^1.0.0-alpha.28":
-  version "1.0.0-alpha.28"
-  resolved "https://registry.yarnpkg.com/@francoischalifour/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.0.0-alpha.28.tgz#a5ad7996f42e43e4acbb4e0010d663746d0e9997"
-  integrity sha512-bprfNmYt1opFUFEtD2XfY/kEsm13bzHQgU80uMjhuK0DJ914IjolT1GytpkdM6tJ4MBvyiJPP+bTtWO+BZ7c7w==
 
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.3.0"
@@ -1621,13 +1630,14 @@
     defu "^5.0.0"
     lodash.template "^4.5.0"
 
-"@nuxtjs/google-fonts@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-1.2.0.tgz#b226683f2ccfdb1caab02729ff1c513062b9e868"
-  integrity sha512-uxH3A9j0kyPDyhq4yFxT4GZjYinVzOFRFSTT1Tx5mqXvAaiqa9u6wie2KnN8i+LFypn/WKp1mREPO17cgdlZkQ==
+"@nuxtjs/google-fonts@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-2.0.0.tgz#a0a97b3f0d2f86b4ec2ec08077e11105c07b71e8"
+  integrity sha512-ddcv0/+e5YKK2/ivE1v6I7aGXoNfcuGjNydbJz3q+zXkucftbQDBtph8AoYcqRbTIwUpCsr4aHov8P2HXyZSbg==
   dependencies:
-    consola "^2.15.0"
-    google-fonts-helper "^1.1.1"
+    consola "^2.15.3"
+    defu "^6.0.0"
+    google-fonts-helper "^2.0.1"
 
 "@nuxtjs/pwa@^3.3.5":
   version "3.3.5"
@@ -1644,7 +1654,7 @@
     serve-static "^1.14.1"
     workbox-cdn "^5.1.4"
 
-"@nuxtjs/tailwindcss@^3.4.2":
+"@nuxtjs/tailwindcss@^3.4.3":
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-3.4.3.tgz#8239b11857d395000d9ff5df52b18644d631629d"
   integrity sha512-W2FIB5zzvkPkNayQ3mTy7jcP0rTDwnrjv79v96/CRTptFbY5TxvZVJI7N0r8ova/IWPSdkgjdCb7wbzolzzgjg==
@@ -4816,14 +4826,14 @@ good-listener@^1.2.2:
   dependencies:
     delegate "^3.1.2"
 
-google-fonts-helper@^1.1.1:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/google-fonts-helper/-/google-fonts-helper-1.2.0.tgz#32eb8ebf9816dbb2ec8acda81ad03a021ed44050"
-  integrity sha512-ojpHo6uwaqI2/tpXcCBY9u/3erd++Wjpf1UQkmb+ZUa/oMztiospubmQCwDQ0AHhFUkBMW1+R12am1kxQFqymg==
+google-fonts-helper@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/google-fonts-helper/-/google-fonts-helper-2.0.1.tgz#ac6859272a572c516bbd83decaea50f6f4f24535"
+  integrity sha512-qlk3in9FYYYHX6tR8O9pPBbO4KqjBLtyfuSBxz/soY+xhUruzT6yKzPT1Z+aqH8KFoquwaRCxROok9ntg2kqiw==
   dependencies:
     deepmerge "^4.2.2"
-    fs-extra "^9.0.1"
-    got "^11.8.1"
+    fs-extra "^9.1.0"
+    got "^11.8.2"
 
 gopd@^1.0.1:
   version "1.0.1"
@@ -4832,7 +4842,7 @@ gopd@^1.0.1:
   dependencies:
     get-intrinsic "^1.1.3"
 
-got@^11.8.1:
+got@^11.8.2:
   version "11.8.6"
   resolved "https://registry.yarnpkg.com/got/-/got-11.8.6.tgz#276e827ead8772eddbcfc97170590b841823233a"
   integrity sha512-6tfZ91bOr7bOXnK7PRDCGBLa1H4U080YHNaAQ2KsMGlLEzRbk44nsZF2E1IeRc3vtJHPVbKCYgdFbaGO2ljd8g==
@@ -6191,10 +6201,10 @@ markdown-table@^2.0.0:
   dependencies:
     repeat-string "^1.0.0"
 
-marked@^2.0.1:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-2.1.3.tgz#bd017cef6431724fd4b27e0657f5ceb14bff3753"
-  integrity sha512-/Q+7MGzaETqifOMWYEA7HVMaZb4XbcRfaOzcSsHZEith83KGlvaSG33u0SKu89Mj5h+T8V2hM+8O45Qc5XTgwA==
+marked@^4.2.12:
+  version "4.2.12"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.2.12.tgz#d69a64e21d71b06250da995dcd065c11083bebb5"
+  integrity sha512-yr8hSKa3Fv4D3jdZmtMMPghgVt6TWbk86WQaWhDloQjRSQhMMYCAro7jP7VDJrjjdV8pxVxMssXS8B8Y5DZ5aw==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -9334,10 +9344,10 @@ tailwind-config-viewer@^1.5.0:
     portfinder "^1.0.26"
     replace-in-file "^6.1.0"
 
-tailwind-css-variables@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/tailwind-css-variables/-/tailwind-css-variables-2.0.3.tgz#3648e5fbadd40bb3393843828336b62c6915d529"
-  integrity sha512-GYf4fQgtahUao7JN87hrEaeJgRnuksbP/5GOtMxnWylDsCIZ02CQJ13/8MFTCH21LhLxRBD8BCDxkwEmXbqwlg==
+tailwind-css-variables@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/tailwind-css-variables/-/tailwind-css-variables-3.0.1.tgz#a4ab01c7722cf1138fac7591f08032f8cd66c52d"
+  integrity sha512-A+nTugMfxrhpTuSuUR+gCjj8ptiyJ7CcPDH15T09KyqaiqXRyxkKBux18/c+qjB8pDUlaZD52IoJVcC0zRsgAw==
 
 tailwindcss@^1.9.6:
   version "1.9.6"
@@ -9384,27 +9394,27 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-terodon@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/terodon/-/terodon-0.0.3.tgz#5043c82d5b5d932d39968d46677f623527cd372c"
-  integrity sha512-TFLKxp/g493MAyg7FPsAuYIaQBaQusTbsjOZTo0aHOAXkYE+zOkkt8JT4kjPzp2d8ddDwWYpM6ln38X7QDcE1Q==
+terodon@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/terodon/-/terodon-0.0.9.tgz#587b627e2cd4515b1e9dbaca13cfa3adb096cf1b"
+  integrity sha512-yULauEPo/iQLBj+1aQLvmV9rK/mPkYvBI4fX1TpYQDeOQWnViUV9FySXaWquARnQt/p24JzOE2SGesziKnFuwQ==
   dependencies:
-    "@docsearch/css" "^1.0.0-alpha.28"
-    "@docsearch/js" "^1.0.0-alpha.28"
+    "@docsearch/css" "^3.3.2"
+    "@docsearch/js" "^3.3.2"
     "@nuxt/content" "^1.15.1"
     "@nuxt/types" "^2.15.2"
     "@nuxtjs/color-mode" "^2.0.3"
-    "@nuxtjs/google-fonts" "1.2.0"
+    "@nuxtjs/google-fonts" "2.0.0"
     "@nuxtjs/pwa" "^3.3.5"
-    "@nuxtjs/tailwindcss" "^3.4.2"
+    "@nuxtjs/tailwindcss" "^3.4.3"
     "@tailwindcss/typography" "0.2.0"
     clipboard "^2.0.6"
     defu "^3.2.2"
     lodash.groupby "^4.6.0"
-    marked "^2.0.1"
+    marked "^4.2.12"
     nuxt-i18n "^6.20.4"
     prism-themes "^1.5.0"
-    tailwind-css-variables "^2.0.3"
+    tailwind-css-variables "^3.0.1"
     theme-colors "^0.0.5"
     vue-scrollactive "^0.9.3"
 
