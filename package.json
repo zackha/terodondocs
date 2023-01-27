@@ -1,18 +1,15 @@
 {
-  "name": "terodondocs",
-  "version": "1.0.0",
+  "name": "docus-starter",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
   },
-  "resolutions": {
-    "@nuxt/kit": "3.0.0-rc.13"
-  },
-  "dependencies": {
-    "nuxt": "^2.15.8",
-    "terodon": "^0.0.10"
+  "devDependencies": {
+    "nuxt": "^3.1.0",
+    "@nuxt-themes/docus": "^1.6.0"
   }
 }
