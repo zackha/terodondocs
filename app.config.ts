@@ -1,6 +1,6 @@
 export default defineAppConfig({
   docus: {
-    title: "Docus",
+    title: "Rays",
     description: "The best place to start your documentation.",
     aside: {
       level: 0,
