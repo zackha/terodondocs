@@ -627,22 +627,22 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt-themes/docus@^1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/docus/-/docus-1.7.3.tgz#59277b222f5ad7d705dafd9510fc64e7a881ddac"
-  integrity sha512-nkq9JBayZXJcYAUBxlOIMdnN1ee6kSQs9/KdQXzxlmx8xYSD+C59HddeOgHJmgUkIdEOuHs5AI9HmD5P3zIDBA==
+"@nuxt-themes/docus@^1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/docus/-/docus-1.8.1.tgz#96f9bab331e32743cf0d3fb6cdd09fdd3045448b"
+  integrity sha512-UrsqD24e5hewHKDvqfgDNV0I6dGpKieaZoUG7aaCPP0glAqNlWMw8SFHlM7KFBx9iREmWed1XxCkN7wAcJPIUQ==
   dependencies:
-    "@nuxt-themes/elements" "^0.6.3"
+    "@nuxt-themes/elements" "^0.7.0"
     "@nuxt-themes/tokens" "^1.7.3"
-    "@nuxt-themes/typography" "^0.7.2"
+    "@nuxt-themes/typography" "^0.8.0"
     "@nuxt/content" "^2.4.3"
     "@nuxthq/studio" "^0.7.0"
     "@vueuse/nuxt" "^9.12.0"
 
-"@nuxt-themes/elements@^0.6.3":
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/elements/-/elements-0.6.3.tgz#f503a4afc596a2d33a74cf33174d4e5447fe7eb5"
-  integrity sha512-nrRnrHtjtmOc+9w3q0cCwuyPayjKdCrNjRYPfiEzvVHxTlZns8IONNBkZnhX9AWf+RyJATtn8BcaLK0kh8eVvA==
+"@nuxt-themes/elements@^0.7.0":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/elements/-/elements-0.7.2.tgz#fe0688cd4a2f7f557169c7a56fb95bb5db6ccd06"
+  integrity sha512-tix0nXchdMMyfSdp+x7VtQE0unNWrQ/xDxxHX/p8JzZMDs4jnXnfJnpdIljhZCyIlFe+9KM5wAZuzb4C0lsGrg==
   dependencies:
     "@nuxt-themes/tokens" "^1.7.3"
     "@vueuse/core" "^9.12.0"
@@ -656,10 +656,10 @@
     "@vueuse/core" "^9.12.0"
     pinceau "^0.13.8"
 
-"@nuxt-themes/typography@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/typography/-/typography-0.7.2.tgz#cc2d2d7544d6d711995f889c0c9566ebb226cde9"
-  integrity sha512-mnt3fcMTgLNi9GJYBmmeQCds1lJ2GzrlT6WboFcvDfevyIPxGWzztlE50fD/5oyU1Dalpb5R0+8RYFNlZQaKjQ==
+"@nuxt-themes/typography@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/typography/-/typography-0.8.0.tgz#22e443a726fb9493faae0ec7f0538787595a06c4"
+  integrity sha512-aK1Bp9FnlTcg8sc3ZGGGx4dMlQrIRMxZhBwFEbh4JtLupcckJVt3FsJE+JGEmyRWSFbJrsagLdv6cZ9Vn7OCfQ==
   dependencies:
     "@nuxt-themes/tokens" "^1.7.3"
     "@nuxtjs/color-mode" "^3.2.0"
